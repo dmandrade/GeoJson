@@ -1,0 +1,21 @@
+{
+  "name": "dmandrade/GeoJson",
+  "description": "Implements GeoJson outpu specification",
+  "license": "MIT",
+  "keywords": ["geo","location", "json","geojson"],
+  "authors": [
+    {
+      "name": "Danilo Andrade",
+      "email": "danilo@daniloandrade.net"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "4.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "dmandrade\\GeoJson\\": "src"
+    }
+  }
+}
