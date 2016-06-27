@@ -6,8 +6,6 @@ use Dmandrade\GeoJson\CoordinateReferenceSystem\CoordinateReferenceSystem;
 use Dmandrade\GeoJson\Exception\UnserializationException;
 
 /**
- * Base Dmandrade\GeoJson object.
- *
  * @see http://www.geojson.org/geojson-spec.html#geojson-objects
  * @since 1.0
  */
@@ -173,9 +171,6 @@ abstract class GeoJson implements \JsonSerializable, JsonUnserializable
 
     /**
      * Set optional CRS and BoundingBox arguments passed to a constructor.
-     *
-     * @todo Decide if multiple CRS or BoundingBox instances should override a
-     *       previous value or be ignored
      */
     protected function setOptionalConstructorArgs(array $args)
     {

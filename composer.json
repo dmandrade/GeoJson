@@ -1,5 +1,5 @@
 {
-  "name": "dmandrade/GeoJson",
+  "name": "dmandrade/geojson",
   "description": "Implements GeoJson outpu specification",
   "license": "MIT",
   "keywords": ["geo","location", "json","geojson"],
