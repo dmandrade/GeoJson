@@ -15,7 +15,12 @@
   },
   "autoload": {
     "psr-4": {
-      "dmandrade\\GeoJson\\": "src"
+      "Dmandrade\\GeoJson\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Dmandrade\\GeoJson\\Tests\\": "tests/"
     }
   }
 }
