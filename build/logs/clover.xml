@@ -1,0 +1,1291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1467122430">
+  <project timestamp="1467122430">
+    <package name="Dmandrade\GeoJson">
+      <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/src/BoundingBox.php">
+        <class name="BoundingBox" namespace="Dmandrade\GeoJson">
+          <metrics methods="4" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="20" coveredstatements="14" elements="24" coveredelements="15"/>
+        </class>
+        <line num="25" type="method" name="__construct" crap="9.21" count="2"/>
+        <line num="27" type="stmt" count="2"/>
+        <line num="29" type="stmt" count="2"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="2"/>
+        <line num="34" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="2"/>
+        <line num="38" type="stmt" count="2"/>
+        <line num="39" type="stmt" count="0"/>
+        <line num="41" type="stmt" count="2"/>
+        <line num="43" type="stmt" count="2"/>
+        <line num="44" type="stmt" count="2"/>
+        <line num="45" type="stmt" count="0"/>
+        <line num="47" type="stmt" count="2"/>
+        <line num="49" type="stmt" count="2"/>
+        <line num="50" type="stmt" count="2"/>
+        <line num="57" type="method" name="getBounds" crap="1" count="2"/>
+        <line num="59" type="stmt" count="2"/>
+        <line num="65" type="method" name="jsonSerialize" crap="2" count="0"/>
+        <line num="67" type="stmt" count="0"/>
+        <line num="73" type="method" name="jsonUnserialize" crap="2.15" count="2"/>
+        <line num="75" type="stmt" count="2"/>
+        <line num="76" type="stmt" count="0"/>
+        <line num="79" type="stmt" count="2"/>
+        <metrics loc="81" ncloc="56" classes="1" methods="4" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="20" coveredstatements="14" elements="24" coveredelements="15"/>
+      </file>
+      <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/src/GeoJson.php">
+        <class name="GeoJson" namespace="Dmandrade\GeoJson">
+          <metrics methods="6" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="77" coveredstatements="68" elements="83" coveredelements="73"/>
+        </class>
+        <line num="34" type="method" name="getBoundingBox" crap="1" count="12"/>
+        <line num="36" type="stmt" count="12"/>
+        <line num="44" type="method" name="getCrs" crap="1" count="12"/>
+        <line num="46" type="stmt" count="12"/>
+        <line num="54" type="method" name="getType" crap="1" count="32"/>
+        <line num="56" type="stmt" count="32"/>
+        <line num="62" type="method" name="jsonSerialize" crap="3" count="22"/>
+        <line num="64" type="stmt" count="22"/>
+        <line num="66" type="stmt" count="22"/>
+        <line num="67" type="stmt" count="10"/>
+        <line num="68" type="stmt" count="10"/>
+        <line num="70" type="stmt" count="22"/>
+        <line num="71" type="stmt" count="10"/>
+        <line num="72" type="stmt" count="10"/>
+        <line num="74" type="stmt" count="22"/>
+        <line num="80" type="method" name="jsonUnserialize" crap="37.29" count="26"/>
+        <line num="82" type="stmt" count="26"/>
+        <line num="83" type="stmt" count="0"/>
+        <line num="84" type="stmt" count="2"/>
+        <line num="86" type="stmt" count="26"/>
+        <line num="88" type="stmt" count="26"/>
+        <line num="89" type="stmt" count="0"/>
+        <line num="92" type="stmt" count="26"/>
+        <line num="93" type="stmt" count="26"/>
+        <line num="96" type="stmt" count="26"/>
+        <line num="97" type="stmt" count="26"/>
+        <line num="98" type="stmt" count="26"/>
+        <line num="99" type="stmt" count="26"/>
+        <line num="100" type="stmt" count="26"/>
+        <line num="101" type="stmt" count="26"/>
+        <line num="102" type="stmt" count="22"/>
+        <line num="103" type="stmt" count="0"/>
+        <line num="106" type="stmt" count="22"/>
+        <line num="107" type="stmt" count="0"/>
+        <line num="110" type="stmt" count="22"/>
+        <line num="111" type="stmt" count="22"/>
+        <line num="113" type="stmt" count="10"/>
+        <line num="114" type="stmt" count="4"/>
+        <line num="115" type="stmt" count="4"/>
+        <line num="117" type="stmt" count="4"/>
+        <line num="118" type="stmt" count="0"/>
+        <line num="121" type="stmt" count="4"/>
+        <line num="122" type="stmt" count="0"/>
+        <line num="125" type="stmt" count="4"/>
+        <line num="126" type="stmt" count="4"/>
+        <line num="127" type="stmt" count="4"/>
+        <line num="128" type="stmt" count="4"/>
+        <line num="130" type="stmt" count="8"/>
+        <line num="131" type="stmt" count="4"/>
+        <line num="132" type="stmt" count="1"/>
+        <line num="135" type="stmt" count="3"/>
+        <line num="136" type="stmt" count="1"/>
+        <line num="139" type="stmt" count="2"/>
+        <line num="140" type="stmt" count="2"/>
+        <line num="142" type="stmt" count="4"/>
+        <line num="143" type="stmt" count="4"/>
+        <line num="144" type="stmt" count="1"/>
+        <line num="147" type="stmt" count="3"/>
+        <line num="148" type="stmt" count="1"/>
+        <line num="151" type="stmt" count="2"/>
+        <line num="152" type="stmt" count="2"/>
+        <line num="154" type="stmt" count="0"/>
+        <line num="155" type="stmt" count="0"/>
+        <line num="156" type="stmt" count="0"/>
+        <line num="158" type="stmt" count="22"/>
+        <line num="159" type="stmt" count="2"/>
+        <line num="160" type="stmt" count="2"/>
+        <line num="162" type="stmt" count="22"/>
+        <line num="163" type="stmt" count="2"/>
+        <line num="164" type="stmt" count="2"/>
+        <line num="166" type="stmt" count="22"/>
+        <line num="167" type="stmt" count="22"/>
+        <line num="169" type="stmt" count="22"/>
+        <line num="175" type="method" name="setOptionalConstructorArgs" crap="4" count="24"/>
+        <line num="177" type="stmt" count="24"/>
+        <line num="178" type="stmt" count="24"/>
+        <line num="179" type="stmt" count="22"/>
+        <line num="180" type="stmt" count="22"/>
+        <line num="182" type="stmt" count="24"/>
+        <line num="183" type="stmt" count="22"/>
+        <line num="184" type="stmt" count="22"/>
+        <line num="185" type="stmt" count="24"/>
+        <line num="186" type="stmt" count="24"/>
+        <metrics loc="187" ncloc="150" classes="1" methods="6" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="77" coveredstatements="68" elements="83" coveredelements="73"/>
+      </file>
+    </package>
+    <package name="Dmandrade\GeoJson\CoordinateReferenceSystem">
+      <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/src/CoordinateReferenceSystem/CoordinateReferenceSystem.php">
+        <class name="CoordinateReferenceSystem" namespace="Dmandrade\GeoJson\CoordinateReferenceSystem">
+          <metrics methods="5" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="21" coveredstatements="20" elements="26" coveredelements="24"/>
+        </class>
+        <line num="31" type="method" name="getProperties" crap="1" count="10"/>
+        <line num="33" type="stmt" count="10"/>
+        <line num="41" type="method" name="getType" crap="1" count="11"/>
+        <line num="43" type="stmt" count="11"/>
+        <line num="44" type="stmt" count="1"/>
+        <line num="49" type="method" name="jsonSerialize" crap="1" count="3"/>
+        <line num="52" type="stmt" count="3"/>
+        <line num="53" type="stmt" count="3"/>
+        <line num="54" type="stmt" count="3"/>
+        <line num="60" type="method" name="jsonUnserialize" crap="7" count="16"/>
+        <line num="62" type="stmt" count="16"/>
+        <line num="63" type="stmt" count="1"/>
+        <line num="66" type="stmt" count="15"/>
+        <line num="68" type="stmt" count="15"/>
+        <line num="69" type="stmt" count="1"/>
+        <line num="72" type="stmt" count="14"/>
+        <line num="73" type="stmt" count="1"/>
+        <line num="76" type="stmt" count="13"/>
+        <line num="77" type="stmt" count="13"/>
+        <line num="80" type="stmt" count="13"/>
+        <line num="81" type="stmt" count="6"/>
+        <line num="83" type="stmt" count="7"/>
+        <line num="84" type="stmt" count="6"/>
+        <line num="87" type="stmt" count="1"/>
+        <line num="100" type="method" name="jsonUnserializeFromProperties" crap="2" count="0"/>
+        <line num="102" type="stmt" count="0"/>
+        <metrics loc="104" ncloc="66" classes="1" methods="5" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="21" coveredstatements="20" elements="26" coveredelements="24"/>
+      </file>
+      <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/src/CoordinateReferenceSystem/Linked.php">
+        <class name="Linked" namespace="Dmandrade\GeoJson\CoordinateReferenceSystem">
+          <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="13" elements="15" coveredelements="15"/>
+        </class>
+        <line num="23" type="method" name="__construct" crap="2" count="6"/>
+        <line num="25" type="stmt" count="6"/>
+        <line num="27" type="stmt" count="6"/>
+        <line num="28" type="stmt" count="3"/>
+        <line num="29" type="stmt" count="3"/>
+        <line num="30" type="stmt" count="6"/>
+        <line num="40" type="method" name="jsonUnserializeFromProperties" crap="5" count="6"/>
+        <line num="42" type="stmt" count="6"/>
+        <line num="43" type="stmt" count="1"/>
+        <line num="46" type="stmt" count="5"/>
+        <line num="48" type="stmt" count="5"/>
+        <line num="49" type="stmt" count="1"/>
+        <line num="52" type="stmt" count="4"/>
+        <line num="53" type="stmt" count="4"/>
+        <line num="55" type="stmt" count="4"/>
+        <metrics loc="57" ncloc="37" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="13" elements="15" coveredelements="15"/>
+      </file>
+      <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/src/CoordinateReferenceSystem/Named.php">
+        <class name="Named" namespace="Dmandrade\GeoJson\CoordinateReferenceSystem">
+          <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="9" elements="11" coveredelements="11"/>
+        </class>
+        <line num="22" type="method" name="__construct" crap="1" count="5"/>
+        <line num="24" type="stmt" count="5"/>
+        <line num="25" type="stmt" count="5"/>
+        <line num="35" type="method" name="jsonUnserializeFromProperties" crap="4" count="6"/>
+        <line num="37" type="stmt" count="6"/>
+        <line num="38" type="stmt" count="1"/>
+        <line num="41" type="stmt" count="5"/>
+        <line num="43" type="stmt" count="5"/>
+        <line num="44" type="stmt" count="1"/>
+        <line num="47" type="stmt" count="4"/>
+        <line num="49" type="stmt" count="4"/>
+        <metrics loc="51" ncloc="32" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="9" elements="11" coveredelements="11"/>
+      </file>
+    </package>
+    <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/src/Exception/Exception.php">
+      <metrics loc="5" ncloc="5" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <package name="Dmandrade\GeoJson\Exception">
+      <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/src/Exception/UnserializationException.php">
+        <class name="UnserializationException" namespace="Dmandrade\GeoJson\Exception">
+          <metrics methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="19" coveredstatements="19" elements="23" coveredelements="23"/>
+        </class>
+        <line num="15" type="method" name="invalidValue" crap="2" count="1"/>
+        <line num="17" type="stmt" count="1"/>
+        <line num="18" type="stmt" count="1"/>
+        <line num="19" type="stmt" count="1"/>
+        <line num="20" type="stmt" count="1"/>
+        <line num="21" type="stmt" count="1"/>
+        <line num="22" type="stmt" count="1"/>
+        <line num="34" type="method" name="invalidProperty" crap="2" count="4"/>
+        <line num="36" type="stmt" count="4"/>
+        <line num="37" type="stmt" count="4"/>
+        <line num="38" type="stmt" count="4"/>
+        <line num="39" type="stmt" count="4"/>
+        <line num="40" type="stmt" count="4"/>
+        <line num="41" type="stmt" count="4"/>
+        <line num="42" type="stmt" count="4"/>
+        <line num="53" type="method" name="missingProperty" crap="1" count="6"/>
+        <line num="55" type="stmt" count="6"/>
+        <line num="56" type="stmt" count="6"/>
+        <line num="57" type="stmt" count="6"/>
+        <line num="58" type="stmt" count="6"/>
+        <line num="60" type="stmt" count="6"/>
+        <line num="70" type="method" name="unsupportedType" crap="1" count="1"/>
+        <line num="72" type="stmt" count="1"/>
+        <metrics loc="74" ncloc="42" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="19" coveredstatements="19" elements="23" coveredelements="23"/>
+      </file>
+    </package>
+    <package name="Dmandrade\GeoJson\Feature">
+      <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/src/Feature/Feature.php">
+        <class name="Feature" namespace="Dmandrade\GeoJson\Feature">
+          <metrics methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="20" coveredstatements="20" elements="25" coveredelements="25"/>
+        </class>
+        <line num="43" type="method" name="__construct" crap="2" count="9"/>
+        <line num="45" type="stmt" count="9"/>
+        <line num="46" type="stmt" count="9"/>
+        <line num="47" type="stmt" count="9"/>
+        <line num="49" type="stmt" count="9"/>
+        <line num="50" type="stmt" count="2"/>
+        <line num="51" type="stmt" count="2"/>
+        <line num="52" type="stmt" count="9"/>
+        <line num="59" type="method" name="getGeometry" crap="1" count="5"/>
+        <line num="61" type="stmt" count="5"/>
+        <line num="69" type="method" name="getId" crap="1" count="5"/>
+        <line num="71" type="stmt" count="5"/>
+        <line num="79" type="method" name="getProperties" crap="1" count="5"/>
+        <line num="81" type="stmt" count="5"/>
+        <line num="87" type="method" name="jsonSerialize" crap="5" count="4"/>
+        <line num="89" type="stmt" count="4"/>
+        <line num="91" type="stmt" count="4"/>
+        <line num="92" type="stmt" count="4"/>
+        <line num="95" type="stmt" count="4"/>
+        <line num="96" type="stmt" count="1"/>
+        <line num="97" type="stmt" count="1"/>
+        <line num="99" type="stmt" count="4"/>
+        <line num="100" type="stmt" count="1"/>
+        <line num="101" type="stmt" count="1"/>
+        <line num="103" type="stmt" count="4"/>
+        <metrics loc="105" ncloc="60" classes="1" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="20" coveredstatements="20" elements="25" coveredelements="25"/>
+      </file>
+      <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/src/Feature/FeatureCollection.php">
+        <class name="FeatureCollection" namespace="Dmandrade\GeoJson\Feature">
+          <metrics methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="15" elements="20" coveredelements="20"/>
+        </class>
+        <line num="28" type="method" name="__construct" crap="4" count="9"/>
+        <line num="30" type="stmt" count="9"/>
+        <line num="31" type="stmt" count="7"/>
+        <line num="32" type="stmt" count="1"/>
+        <line num="34" type="stmt" count="8"/>
+        <line num="36" type="stmt" count="8"/>
+        <line num="38" type="stmt" count="8"/>
+        <line num="39" type="stmt" count="2"/>
+        <line num="40" type="stmt" count="2"/>
+        <line num="41" type="stmt" count="8"/>
+        <line num="46" type="method" name="count" crap="1" count="3"/>
+        <line num="48" type="stmt" count="3"/>
+        <line num="56" type="method" name="getFeatures" crap="1" count="1"/>
+        <line num="58" type="stmt" count="1"/>
+        <line num="64" type="method" name="getIterator" crap="1" count="4"/>
+        <line num="66" type="stmt" count="4"/>
+        <line num="72" type="method" name="jsonSerialize" crap="1" count="2"/>
+        <line num="74" type="stmt" count="2"/>
+        <line num="75" type="stmt" count="2"/>
+        <line num="76" type="stmt" count="2"/>
+        <line num="78" type="stmt" count="2"/>
+        <line num="79" type="stmt" count="2"/>
+        <line num="80" type="stmt" count="2"/>
+        <metrics loc="82" ncloc="53" classes="1" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="18" elements="23" coveredelements="23"/>
+      </file>
+    </package>
+    <package name="Dmandrade\GeoJson\Geometry">
+      <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/src/Geometry/Geometry.php">
+        <class name="Geometry" namespace="Dmandrade\GeoJson\Geometry">
+          <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="8" coveredelements="8"/>
+        </class>
+        <line num="25" type="method" name="getCoordinates" crap="1" count="47"/>
+        <line num="27" type="stmt" count="47"/>
+        <line num="33" type="method" name="jsonSerialize" crap="2" count="16"/>
+        <line num="35" type="stmt" count="16"/>
+        <line num="37" type="stmt" count="16"/>
+        <line num="38" type="stmt" count="14"/>
+        <line num="39" type="stmt" count="14"/>
+        <line num="41" type="stmt" count="16"/>
+        <metrics loc="43" ncloc="26" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="8" coveredelements="8"/>
+      </file>
+      <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/src/Geometry/GeometryCollection.php">
+        <class name="GeometryCollection" namespace="Dmandrade\GeoJson\Geometry">
+          <metrics methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="15" elements="20" coveredelements="20"/>
+        </class>
+        <line num="26" type="method" name="__construct" crap="4" count="9"/>
+        <line num="28" type="stmt" count="9"/>
+        <line num="29" type="stmt" count="7"/>
+        <line num="30" type="stmt" count="1"/>
+        <line num="32" type="stmt" count="8"/>
+        <line num="34" type="stmt" count="8"/>
+        <line num="36" type="stmt" count="8"/>
+        <line num="37" type="stmt" count="2"/>
+        <line num="38" type="stmt" count="2"/>
+        <line num="39" type="stmt" count="8"/>
+        <line num="44" type="method" name="count" crap="1" count="3"/>
+        <line num="46" type="stmt" count="3"/>
+        <line num="54" type="method" name="getGeometries" crap="1" count="1"/>
+        <line num="56" type="stmt" count="1"/>
+        <line num="62" type="method" name="getIterator" crap="1" count="4"/>
+        <line num="64" type="stmt" count="4"/>
+        <line num="70" type="method" name="jsonSerialize" crap="1" count="2"/>
+        <line num="72" type="stmt" count="2"/>
+        <line num="73" type="stmt" count="2"/>
+        <line num="74" type="stmt" count="2"/>
+        <line num="76" type="stmt" count="2"/>
+        <line num="77" type="stmt" count="2"/>
+        <line num="78" type="stmt" count="2"/>
+        <metrics loc="80" ncloc="51" classes="1" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="18" elements="23" coveredelements="23"/>
+      </file>
+      <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/src/Geometry/LineString.php">
+        <class name="LineString" namespace="Dmandrade\GeoJson\Geometry">
+          <metrics methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="5" coveredelements="5"/>
+        </class>
+        <line num="23" type="method" name="__construct" crap="2" count="28"/>
+        <line num="25" type="stmt" count="28"/>
+        <line num="26" type="stmt" count="1"/>
+        <line num="29" type="stmt" count="27"/>
+        <line num="30" type="stmt" count="27"/>
+        <metrics loc="31" ncloc="17" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="5" coveredelements="5"/>
+      </file>
+      <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/src/Geometry/LinearRing.php">
+        <class name="LinearRing" namespace="Dmandrade\GeoJson\Geometry">
+          <metrics methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="11" coveredelements="11"/>
+        </class>
+        <line num="22" type="method" name="__construct" crap="5" count="18"/>
+        <line num="24" type="stmt" count="18"/>
+        <line num="25" type="stmt" count="1"/>
+        <line num="28" type="stmt" count="17"/>
+        <line num="29" type="stmt" count="17"/>
+        <line num="31" type="stmt" count="17"/>
+        <line num="32" type="stmt" count="17"/>
+        <line num="34" type="stmt" count="17"/>
+        <line num="35" type="stmt" count="1"/>
+        <line num="38" type="stmt" count="16"/>
+        <line num="39" type="stmt" count="16"/>
+        <metrics loc="40" ncloc="25" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="11" coveredelements="11"/>
+      </file>
+      <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/src/Geometry/MultiLineString.php">
+        <class name="MultiLineString" namespace="Dmandrade\GeoJson\Geometry">
+          <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="8" coveredelements="8"/>
+        </class>
+        <line num="23" type="method" name="__construct" crap="3" count="6"/>
+        <line num="25" type="stmt" count="6"/>
+        <line num="26" type="method" name="anonymous function" crap="2" count="6"/>
+        <line num="27" type="stmt" count="6"/>
+        <line num="28" type="stmt" count="6"/>
+        <line num="29" type="stmt" count="6"/>
+        <line num="31" type="stmt" count="6"/>
+        <line num="32" type="stmt" count="6"/>
+        <line num="34" type="stmt" count="6"/>
+        <line num="36" type="stmt" count="6"/>
+        <line num="37" type="stmt" count="2"/>
+        <line num="38" type="stmt" count="2"/>
+        <line num="39" type="stmt" count="6"/>
+        <metrics loc="40" ncloc="26" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="13" coveredelements="13"/>
+      </file>
+      <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/src/Geometry/MultiPoint.php">
+        <class name="MultiPoint" namespace="Dmandrade\GeoJson\Geometry">
+          <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="8" coveredelements="8"/>
+        </class>
+        <line num="23" type="method" name="__construct" crap="3" count="33"/>
+        <line num="25" type="stmt" count="33"/>
+        <line num="26" type="method" name="anonymous function" crap="2" count="33"/>
+        <line num="27" type="stmt" count="33"/>
+        <line num="28" type="stmt" count="33"/>
+        <line num="29" type="stmt" count="33"/>
+        <line num="31" type="stmt" count="33"/>
+        <line num="32" type="stmt" count="33"/>
+        <line num="34" type="stmt" count="33"/>
+        <line num="36" type="stmt" count="33"/>
+        <line num="37" type="stmt" count="6"/>
+        <line num="38" type="stmt" count="6"/>
+        <line num="39" type="stmt" count="33"/>
+        <metrics loc="40" ncloc="26" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="13" coveredelements="13"/>
+      </file>
+      <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/src/Geometry/MultiPolygon.php">
+        <class name="MultiPolygon" namespace="Dmandrade\GeoJson\Geometry">
+          <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="8" coveredelements="8"/>
+        </class>
+        <line num="23" type="method" name="__construct" crap="3" count="6"/>
+        <line num="25" type="stmt" count="6"/>
+        <line num="26" type="method" name="anonymous function" crap="2" count="6"/>
+        <line num="27" type="stmt" count="6"/>
+        <line num="28" type="stmt" count="6"/>
+        <line num="29" type="stmt" count="6"/>
+        <line num="31" type="stmt" count="6"/>
+        <line num="32" type="stmt" count="6"/>
+        <line num="34" type="stmt" count="6"/>
+        <line num="36" type="stmt" count="6"/>
+        <line num="37" type="stmt" count="2"/>
+        <line num="38" type="stmt" count="2"/>
+        <line num="39" type="stmt" count="6"/>
+        <metrics loc="40" ncloc="26" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="13" coveredelements="13"/>
+      </file>
+      <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/src/Geometry/Point.php">
+        <class name="Point" namespace="Dmandrade\GeoJson\Geometry">
+          <metrics methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="12" coveredelements="12"/>
+        </class>
+        <line num="23" type="method" name="__construct" crap="6" count="53"/>
+        <line num="25" type="stmt" count="53"/>
+        <line num="26" type="stmt" count="1"/>
+        <line num="29" type="stmt" count="52"/>
+        <line num="30" type="stmt" count="52"/>
+        <line num="31" type="stmt" count="3"/>
+        <line num="33" type="stmt" count="49"/>
+        <line num="35" type="stmt" count="49"/>
+        <line num="37" type="stmt" count="49"/>
+        <line num="38" type="stmt" count="6"/>
+        <line num="39" type="stmt" count="6"/>
+        <line num="40" type="stmt" count="49"/>
+        <metrics loc="41" ncloc="27" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="12" coveredelements="12"/>
+      </file>
+      <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/src/Geometry/Polygon.php">
+        <class name="Polygon" namespace="Dmandrade\GeoJson\Geometry">
+          <metrics methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="11" coveredelements="11"/>
+        </class>
+        <line num="23" type="method" name="__construct" crap="4" count="12"/>
+        <line num="25" type="stmt" count="12"/>
+        <line num="26" type="stmt" count="12"/>
+        <line num="27" type="stmt" count="12"/>
+        <line num="28" type="stmt" count="12"/>
+        <line num="29" type="stmt" count="12"/>
+        <line num="30" type="stmt" count="12"/>
+        <line num="32" type="stmt" count="12"/>
+        <line num="33" type="stmt" count="2"/>
+        <line num="34" type="stmt" count="2"/>
+        <line num="35" type="stmt" count="12"/>
+        <metrics loc="36" ncloc="22" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="11" coveredelements="11"/>
+      </file>
+    </package>
+    <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/src/JsonUnserializable.php">
+      <metrics loc="24" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <package name="Dmandrade\GeoJson\Tests">
+      <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/tests/BaseGeoJsonTest.php">
+        <class name="BaseGeoJsonTest" namespace="Dmandrade\GeoJson\Tests">
+          <metrics methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="48" coveredstatements="0" elements="54" coveredelements="0"/>
+        </class>
+        <line num="9" type="method" name="testConstructorShouldScanExtraArgumentsForCrsAndBoundingBox" crap="2" count="0"/>
+        <line num="11" type="stmt" count="0"/>
+        <line num="12" type="stmt" count="0"/>
+        <line num="14" type="stmt" count="0"/>
+        <line num="15" type="stmt" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="31" type="stmt" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="36" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="40" type="method" name="testSerializationWithCrsAndBoundingBox" crap="2" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="45" type="stmt" count="0"/>
+        <line num="46" type="stmt" count="0"/>
+        <line num="47" type="stmt" count="0"/>
+        <line num="49" type="stmt" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <line num="51" type="stmt" count="0"/>
+        <line num="53" type="stmt" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <line num="58" type="stmt" count="0"/>
+        <line num="59" type="stmt" count="0"/>
+        <line num="60" type="stmt" count="0"/>
+        <line num="61" type="stmt" count="0"/>
+        <line num="63" type="method" name="getMockBoundingBox" crap="2" count="0"/>
+        <line num="65" type="stmt" count="0"/>
+        <line num="66" type="stmt" count="0"/>
+        <line num="67" type="stmt" count="0"/>
+        <line num="70" type="method" name="getMockCoordinateReferenceSystem" crap="2" count="0"/>
+        <line num="72" type="stmt" count="0"/>
+        <line num="73" type="stmt" count="0"/>
+        <line num="74" type="stmt" count="0"/>
+        <line num="77" type="method" name="getMockFeature" crap="2" count="0"/>
+        <line num="79" type="stmt" count="0"/>
+        <line num="80" type="stmt" count="0"/>
+        <line num="81" type="stmt" count="0"/>
+        <line num="84" type="method" name="getMockGeometry" crap="2" count="0"/>
+        <line num="86" type="stmt" count="0"/>
+        <line num="87" type="stmt" count="0"/>
+        <line num="88" type="stmt" count="0"/>
+        <metrics loc="90" ncloc="88" classes="1" methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="48" coveredstatements="0" elements="54" coveredelements="0"/>
+      </file>
+      <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/tests/GeoJsonTest.php">
+        <class name="GeoJsonTest" namespace="Dmandrade\GeoJson\Tests">
+          <metrics methods="5" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="29" coveredstatements="0" elements="34" coveredelements="0"/>
+        </class>
+        <line num="10" type="method" name="testIsJsonSerializable" crap="2" count="0"/>
+        <line num="12" type="stmt" count="0"/>
+        <line num="13" type="stmt" count="0"/>
+        <line num="15" type="method" name="testIsJsonUnserializable" crap="2" count="0"/>
+        <line num="17" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="24" type="method" name="testUnserializationWithBoundingBox" crap="2" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="34" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="44" type="stmt" count="0"/>
+        <line num="45" type="stmt" count="0"/>
+        <line num="51" type="method" name="testUnserializationWithCrs" crap="2" count="0"/>
+        <line num="64" type="stmt" count="0"/>
+        <line num="66" type="stmt" count="0"/>
+        <line num="67" type="stmt" count="0"/>
+        <line num="69" type="stmt" count="0"/>
+        <line num="70" type="stmt" count="0"/>
+        <line num="71" type="stmt" count="0"/>
+        <line num="73" type="stmt" count="0"/>
+        <line num="75" type="stmt" count="0"/>
+        <line num="77" type="stmt" count="0"/>
+        <line num="78" type="stmt" count="0"/>
+        <line num="79" type="stmt" count="0"/>
+        <line num="80" type="stmt" count="0"/>
+        <line num="82" type="method" name="provideJsonDecodeAssocOptions" crap="2" count="0"/>
+        <line num="85" type="stmt" count="0"/>
+        <line num="86" type="stmt" count="0"/>
+        <line num="87" type="stmt" count="0"/>
+        <metrics loc="89" ncloc="81" classes="1" methods="5" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="29" coveredstatements="0" elements="34" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="Dmandrade\GeoJson\Tests\CoordinateReferenceSystem">
+      <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/tests/CoordinateReferenceSystem/CoordinateReferenceSystemTest.php">
+        <class name="CoordinateReferenceSystemTest" namespace="Dmandrade\GeoJson\Tests\CoordinateReferenceSystem">
+          <metrics methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="0" elements="24" coveredelements="0"/>
+        </class>
+        <line num="9" type="method" name="testIsJsonSerializable" crap="2" count="0"/>
+        <line num="11" type="stmt" count="0"/>
+        <line num="12" type="stmt" count="0"/>
+        <line num="13" type="stmt" count="0"/>
+        <line num="14" type="stmt" count="0"/>
+        <line num="15" type="stmt" count="0"/>
+        <line num="17" type="method" name="testIsJsonUnserializable" crap="2" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="29" type="method" name="testUnserializationShouldRequireArrayOrObject" crap="2" count="0"/>
+        <line num="31" type="stmt" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="38" type="method" name="testUnserializationShouldRequireTypeField" crap="2" count="0"/>
+        <line num="40" type="stmt" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <line num="47" type="method" name="testUnserializationShouldRequirePropertiesField" crap="2" count="0"/>
+        <line num="49" type="stmt" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <line num="56" type="method" name="testUnserializationShouldRequireValidType" crap="2" count="0"/>
+        <line num="58" type="stmt" count="0"/>
+        <line num="59" type="stmt" count="0"/>
+        <metrics loc="60" ncloc="44" classes="1" methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="0" elements="24" coveredelements="0"/>
+      </file>
+      <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/tests/CoordinateReferenceSystem/LinkedTest.php">
+        <class name="LinkedTest" namespace="Dmandrade\GeoJson\Tests\CoordinateReferenceSystem">
+          <metrics methods="8" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="46" coveredstatements="0" elements="54" coveredelements="0"/>
+        </class>
+        <line num="10" type="method" name="testIsSubclassOfCoordinateReferenceSystem" crap="2" count="0"/>
+        <line num="12" type="stmt" count="0"/>
+        <line num="13" type="stmt" count="0"/>
+        <line num="15" type="stmt" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="18" type="method" name="testSerialization" crap="2" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="31" type="stmt" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="35" type="method" name="testSerializationWithoutHrefType" crap="2" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="40" type="stmt" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="44" type="stmt" count="0"/>
+        <line num="46" type="stmt" count="0"/>
+        <line num="47" type="stmt" count="0"/>
+        <line num="53" type="method" name="testUnserialization" crap="2" count="0"/>
+        <line num="63" type="stmt" count="0"/>
+        <line num="65" type="stmt" count="0"/>
+        <line num="66" type="stmt" count="0"/>
+        <line num="69" type="stmt" count="0"/>
+        <line num="70" type="stmt" count="0"/>
+        <line num="71" type="stmt" count="0"/>
+        <line num="73" type="stmt" count="0"/>
+        <line num="74" type="stmt" count="0"/>
+        <line num="75" type="stmt" count="0"/>
+        <line num="76" type="stmt" count="0"/>
+        <line num="82" type="method" name="testUnserializationWithoutHrefType" crap="2" count="0"/>
+        <line num="91" type="stmt" count="0"/>
+        <line num="93" type="stmt" count="0"/>
+        <line num="94" type="stmt" count="0"/>
+        <line num="96" type="stmt" count="0"/>
+        <line num="98" type="stmt" count="0"/>
+        <line num="99" type="stmt" count="0"/>
+        <line num="100" type="stmt" count="0"/>
+        <line num="101" type="stmt" count="0"/>
+        <line num="103" type="method" name="provideJsonDecodeAssocOptions" crap="2" count="0"/>
+        <line num="106" type="stmt" count="0"/>
+        <line num="107" type="stmt" count="0"/>
+        <line num="108" type="stmt" count="0"/>
+        <line num="115" type="method" name="testUnserializationShouldRequirePropertiesArrayOrObject" crap="2" count="0"/>
+        <line num="117" type="stmt" count="0"/>
+        <line num="118" type="stmt" count="0"/>
+        <line num="124" type="method" name="testUnserializationShouldRequireHrefProperty" crap="2" count="0"/>
+        <line num="126" type="stmt" count="0"/>
+        <line num="127" type="stmt" count="0"/>
+        <metrics loc="128" ncloc="112" classes="1" methods="8" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="46" coveredstatements="0" elements="54" coveredelements="0"/>
+      </file>
+      <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/tests/CoordinateReferenceSystem/NamedTest.php">
+        <class name="NamedTest" namespace="Dmandrade\GeoJson\Tests\CoordinateReferenceSystem">
+          <metrics methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="27" coveredstatements="0" elements="33" coveredelements="0"/>
+        </class>
+        <line num="10" type="method" name="testIsSubclassOfCoordinateReferenceSystem" crap="2" count="0"/>
+        <line num="12" type="stmt" count="0"/>
+        <line num="13" type="stmt" count="0"/>
+        <line num="15" type="stmt" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="18" type="method" name="testSerialization" crap="2" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="31" type="stmt" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="38" type="method" name="testUnserialization" crap="2" count="0"/>
+        <line num="47" type="stmt" count="0"/>
+        <line num="49" type="stmt" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <line num="52" type="stmt" count="0"/>
+        <line num="54" type="stmt" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <line num="59" type="method" name="provideJsonDecodeAssocOptions" crap="2" count="0"/>
+        <line num="62" type="stmt" count="0"/>
+        <line num="63" type="stmt" count="0"/>
+        <line num="64" type="stmt" count="0"/>
+        <line num="71" type="method" name="testUnserializationShouldRequirePropertiesArrayOrObject" crap="2" count="0"/>
+        <line num="73" type="stmt" count="0"/>
+        <line num="74" type="stmt" count="0"/>
+        <line num="80" type="method" name="testUnserializationShouldRequireNameProperty" crap="2" count="0"/>
+        <line num="82" type="stmt" count="0"/>
+        <line num="83" type="stmt" count="0"/>
+        <metrics loc="84" ncloc="72" classes="1" methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="27" coveredstatements="0" elements="33" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="Dmandrade\GeoJson\Tests\Feature">
+      <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/tests/Feature/FeatureCollectionTest.php">
+        <class name="FeatureCollectionTest" namespace="Dmandrade\GeoJson\Tests\Feature">
+          <metrics methods="11" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="69" coveredstatements="0" elements="80" coveredelements="0"/>
+        </class>
+        <line num="11" type="method" name="createSubjectWithExtraArguments" crap="2" count="0"/>
+        <line num="13" type="stmt" count="0"/>
+        <line num="15" type="stmt" count="0"/>
+        <line num="18" type="method" name="testIsSubclassOfGeoJson" crap="2" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="27" type="method" name="testConstructorShouldRequireArrayOfFeatureObjects" crap="2" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="32" type="method" name="testConstructorShouldReindexFeaturesArrayNumerically" crap="2" count="0"/>
+        <line num="34" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <line num="40" type="stmt" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="44" type="stmt" count="0"/>
+        <line num="45" type="stmt" count="0"/>
+        <line num="47" type="method" name="testIsTraversable" crap="2" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <line num="51" type="stmt" count="0"/>
+        <line num="52" type="stmt" count="0"/>
+        <line num="54" type="stmt" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <line num="58" type="stmt" count="0"/>
+        <line num="60" type="method" name="testIsCountable" crap="2" count="0"/>
+        <line num="63" type="stmt" count="0"/>
+        <line num="64" type="stmt" count="0"/>
+        <line num="65" type="stmt" count="0"/>
+        <line num="67" type="stmt" count="0"/>
+        <line num="69" type="stmt" count="0"/>
+        <line num="70" type="stmt" count="0"/>
+        <line num="71" type="stmt" count="0"/>
+        <line num="73" type="method" name="testSerialization" crap="2" count="0"/>
+        <line num="76" type="stmt" count="0"/>
+        <line num="77" type="stmt" count="0"/>
+        <line num="78" type="stmt" count="0"/>
+        <line num="80" type="stmt" count="0"/>
+        <line num="81" type="stmt" count="0"/>
+        <line num="82" type="stmt" count="0"/>
+        <line num="84" type="stmt" count="0"/>
+        <line num="85" type="stmt" count="0"/>
+        <line num="86" type="stmt" count="0"/>
+        <line num="88" type="stmt" count="0"/>
+        <line num="91" type="stmt" count="0"/>
+        <line num="92" type="stmt" count="0"/>
+        <line num="93" type="stmt" count="0"/>
+        <line num="95" type="stmt" count="0"/>
+        <line num="96" type="stmt" count="0"/>
+        <line num="97" type="stmt" count="0"/>
+        <line num="98" type="stmt" count="0"/>
+        <line num="104" type="method" name="testUnserialization" crap="2" count="0"/>
+        <line num="120" type="stmt" count="0"/>
+        <line num="122" type="stmt" count="0"/>
+        <line num="123" type="stmt" count="0"/>
+        <line num="125" type="stmt" count="0"/>
+        <line num="126" type="stmt" count="0"/>
+        <line num="127" type="stmt" count="0"/>
+        <line num="129" type="stmt" count="0"/>
+        <line num="130" type="stmt" count="0"/>
+        <line num="132" type="stmt" count="0"/>
+        <line num="133" type="stmt" count="0"/>
+        <line num="134" type="stmt" count="0"/>
+        <line num="135" type="stmt" count="0"/>
+        <line num="137" type="stmt" count="0"/>
+        <line num="139" type="stmt" count="0"/>
+        <line num="140" type="stmt" count="0"/>
+        <line num="141" type="stmt" count="0"/>
+        <line num="142" type="stmt" count="0"/>
+        <line num="144" type="method" name="provideJsonDecodeAssocOptions" crap="2" count="0"/>
+        <line num="147" type="stmt" count="0"/>
+        <line num="148" type="stmt" count="0"/>
+        <line num="149" type="stmt" count="0"/>
+        <line num="156" type="method" name="testUnserializationShouldRequireFeaturesProperty" crap="2" count="0"/>
+        <line num="158" type="stmt" count="0"/>
+        <line num="159" type="stmt" count="0"/>
+        <line num="165" type="method" name="testUnserializationShouldRequireFeaturesArray" crap="2" count="0"/>
+        <line num="167" type="stmt" count="0"/>
+        <line num="168" type="stmt" count="0"/>
+        <metrics loc="169" ncloc="153" classes="1" methods="11" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="69" coveredstatements="0" elements="80" coveredelements="0"/>
+      </file>
+      <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/tests/Feature/FeatureTest.php">
+        <class name="FeatureTest" namespace="Dmandrade\GeoJson\Tests\Feature">
+          <metrics methods="7" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="51" coveredstatements="0" elements="58" coveredelements="0"/>
+        </class>
+        <line num="11" type="method" name="createSubjectWithExtraArguments" crap="2" count="0"/>
+        <line num="13" type="stmt" count="0"/>
+        <line num="15" type="stmt" count="0"/>
+        <line num="18" type="method" name="testIsSubclassOfGeoJson" crap="2" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="23" type="method" name="testSerialization" crap="2" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="31" type="stmt" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="34" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <line num="40" type="stmt" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="44" type="stmt" count="0"/>
+        <line num="45" type="stmt" count="0"/>
+        <line num="46" type="stmt" count="0"/>
+        <line num="47" type="stmt" count="0"/>
+        <line num="48" type="stmt" count="0"/>
+        <line num="50" type="method" name="testSerializationWithNullConstructorArguments" crap="2" count="0"/>
+        <line num="52" type="stmt" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <line num="58" type="stmt" count="0"/>
+        <line num="60" type="stmt" count="0"/>
+        <line num="61" type="stmt" count="0"/>
+        <line num="63" type="method" name="testSerializationShouldConvertEmptyPropertiesArrayToObject" crap="2" count="0"/>
+        <line num="65" type="stmt" count="0"/>
+        <line num="68" type="stmt" count="0"/>
+        <line num="69" type="stmt" count="0"/>
+        <line num="70" type="stmt" count="0"/>
+        <line num="71" type="stmt" count="0"/>
+        <line num="73" type="stmt" count="0"/>
+        <line num="74" type="stmt" count="0"/>
+        <line num="80" type="method" name="testUnserialization" crap="2" count="0"/>
+        <line num="94" type="stmt" count="0"/>
+        <line num="96" type="stmt" count="0"/>
+        <line num="97" type="stmt" count="0"/>
+        <line num="99" type="stmt" count="0"/>
+        <line num="100" type="stmt" count="0"/>
+        <line num="101" type="stmt" count="0"/>
+        <line num="102" type="stmt" count="0"/>
+        <line num="104" type="stmt" count="0"/>
+        <line num="106" type="stmt" count="0"/>
+        <line num="107" type="stmt" count="0"/>
+        <line num="108" type="stmt" count="0"/>
+        <line num="109" type="stmt" count="0"/>
+        <line num="111" type="method" name="provideJsonDecodeAssocOptions" crap="2" count="0"/>
+        <line num="114" type="stmt" count="0"/>
+        <line num="115" type="stmt" count="0"/>
+        <line num="116" type="stmt" count="0"/>
+        <metrics loc="118" ncloc="114" classes="1" methods="7" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="51" coveredstatements="0" elements="58" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="Dmandrade\GeoJson\Tests\Geometry">
+      <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/tests/Geometry/GeometryCollectionTest.php">
+        <class name="GeometryCollectionTest" namespace="Dmandrade\GeoJson\Tests\Geometry">
+          <metrics methods="11" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="64" coveredstatements="0" elements="75" coveredelements="0"/>
+        </class>
+        <line num="11" type="method" name="createSubjectWithExtraArguments" crap="2" count="0"/>
+        <line num="13" type="stmt" count="0"/>
+        <line num="15" type="stmt" count="0"/>
+        <line num="18" type="method" name="testIsSubclassOfGeometry" crap="2" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="27" type="method" name="testConstructorShouldRequireArrayOfGeometryObjects" crap="2" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="32" type="method" name="testConstructorShouldReindexGeometriesArrayNumerically" crap="2" count="0"/>
+        <line num="34" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <line num="40" type="stmt" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="44" type="stmt" count="0"/>
+        <line num="46" type="method" name="testIsTraversable" crap="2" count="0"/>
+        <line num="49" type="stmt" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <line num="51" type="stmt" count="0"/>
+        <line num="53" type="stmt" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <line num="59" type="method" name="testIsCountable" crap="2" count="0"/>
+        <line num="62" type="stmt" count="0"/>
+        <line num="63" type="stmt" count="0"/>
+        <line num="64" type="stmt" count="0"/>
+        <line num="66" type="stmt" count="0"/>
+        <line num="68" type="stmt" count="0"/>
+        <line num="69" type="stmt" count="0"/>
+        <line num="70" type="stmt" count="0"/>
+        <line num="72" type="method" name="testSerialization" crap="2" count="0"/>
+        <line num="75" type="stmt" count="0"/>
+        <line num="76" type="stmt" count="0"/>
+        <line num="77" type="stmt" count="0"/>
+        <line num="79" type="stmt" count="0"/>
+        <line num="80" type="stmt" count="0"/>
+        <line num="81" type="stmt" count="0"/>
+        <line num="83" type="stmt" count="0"/>
+        <line num="84" type="stmt" count="0"/>
+        <line num="85" type="stmt" count="0"/>
+        <line num="87" type="stmt" count="0"/>
+        <line num="90" type="stmt" count="0"/>
+        <line num="91" type="stmt" count="0"/>
+        <line num="92" type="stmt" count="0"/>
+        <line num="94" type="stmt" count="0"/>
+        <line num="95" type="stmt" count="0"/>
+        <line num="96" type="stmt" count="0"/>
+        <line num="97" type="stmt" count="0"/>
+        <line num="103" type="method" name="testUnserialization" crap="2" count="0"/>
+        <line num="115" type="stmt" count="0"/>
+        <line num="117" type="stmt" count="0"/>
+        <line num="118" type="stmt" count="0"/>
+        <line num="120" type="stmt" count="0"/>
+        <line num="121" type="stmt" count="0"/>
+        <line num="122" type="stmt" count="0"/>
+        <line num="124" type="stmt" count="0"/>
+        <line num="125" type="stmt" count="0"/>
+        <line num="127" type="stmt" count="0"/>
+        <line num="128" type="stmt" count="0"/>
+        <line num="129" type="stmt" count="0"/>
+        <line num="130" type="stmt" count="0"/>
+        <line num="132" type="method" name="provideJsonDecodeAssocOptions" crap="2" count="0"/>
+        <line num="135" type="stmt" count="0"/>
+        <line num="136" type="stmt" count="0"/>
+        <line num="137" type="stmt" count="0"/>
+        <line num="144" type="method" name="testUnserializationShouldRequireGeometriesProperty" crap="2" count="0"/>
+        <line num="146" type="stmt" count="0"/>
+        <line num="147" type="stmt" count="0"/>
+        <line num="153" type="method" name="testUnserializationShouldRequireGeometriesArray" crap="2" count="0"/>
+        <line num="155" type="stmt" count="0"/>
+        <line num="156" type="stmt" count="0"/>
+        <metrics loc="157" ncloc="141" classes="1" methods="11" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="64" coveredstatements="0" elements="75" coveredelements="0"/>
+      </file>
+      <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/tests/Geometry/GeometryTest.php">
+        <class name="GeometryTest" namespace="Dmandrade\GeoJson\Tests\Geometry">
+          <metrics methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
+        </class>
+        <line num="7" type="method" name="testIsSubclassOfGeoJson" crap="2" count="0"/>
+        <line num="9" type="stmt" count="0"/>
+        <line num="10" type="stmt" count="0"/>
+        <metrics loc="11" ncloc="11" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
+      </file>
+      <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/tests/Geometry/LineStringTest.php">
+        <class name="LineStringTest" namespace="Dmandrade\GeoJson\Tests\Geometry">
+          <metrics methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="28" coveredstatements="0" elements="34" coveredelements="0"/>
+        </class>
+        <line num="11" type="method" name="createSubjectWithExtraArguments" crap="2" count="0"/>
+        <line num="13" type="stmt" count="0"/>
+        <line num="15" type="stmt" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="21" type="method" name="testIsSubclassOfMultiPoint" crap="2" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="30" type="method" name="testConstructorShouldRequireAtLeastTwoPositions" crap="2" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="35" type="method" name="testSerialization" crap="2" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="45" type="stmt" count="0"/>
+        <line num="46" type="stmt" count="0"/>
+        <line num="47" type="stmt" count="0"/>
+        <line num="48" type="stmt" count="0"/>
+        <line num="54" type="method" name="testUnserialization" crap="2" count="0"/>
+        <line num="64" type="stmt" count="0"/>
+        <line num="66" type="stmt" count="0"/>
+        <line num="67" type="stmt" count="0"/>
+        <line num="69" type="stmt" count="0"/>
+        <line num="71" type="stmt" count="0"/>
+        <line num="72" type="stmt" count="0"/>
+        <line num="73" type="stmt" count="0"/>
+        <line num="74" type="stmt" count="0"/>
+        <line num="76" type="method" name="provideJsonDecodeAssocOptions" crap="2" count="0"/>
+        <line num="79" type="stmt" count="0"/>
+        <line num="80" type="stmt" count="0"/>
+        <line num="81" type="stmt" count="0"/>
+        <metrics loc="83" ncloc="75" classes="1" methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="28" coveredstatements="0" elements="34" coveredelements="0"/>
+      </file>
+      <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/tests/Geometry/LinearRingTest.php">
+        <class name="LinearRingTest" namespace="Dmandrade\GeoJson\Tests\Geometry">
+          <metrics methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="0" elements="41" coveredelements="0"/>
+        </class>
+        <line num="11" type="method" name="createSubjectWithExtraArguments" crap="2" count="0"/>
+        <line num="13" type="stmt" count="0"/>
+        <line num="15" type="stmt" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="21" type="method" name="testIsSubclassOfLineString" crap="2" count="0"/>
+        <line num="23" type="stmt" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="30" type="method" name="testConstructorShouldRequireAtLeastFourPositions" crap="2" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="34" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="36" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="43" type="method" name="testConstructorShouldRequireEquivalentFirstAndLastPositions" crap="2" count="0"/>
+        <line num="45" type="stmt" count="0"/>
+        <line num="46" type="stmt" count="0"/>
+        <line num="47" type="stmt" count="0"/>
+        <line num="48" type="stmt" count="0"/>
+        <line num="49" type="stmt" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <line num="51" type="stmt" count="0"/>
+        <line num="53" type="method" name="testConstructorShouldAcceptEquivalentPointObjectsAndPositionArrays" crap="2" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <line num="58" type="stmt" count="0"/>
+        <line num="59" type="stmt" count="0"/>
+        <line num="60" type="stmt" count="0"/>
+        <line num="61" type="stmt" count="0"/>
+        <line num="63" type="method" name="testSerialization" crap="2" count="0"/>
+        <line num="65" type="stmt" count="0"/>
+        <line num="66" type="stmt" count="0"/>
+        <line num="69" type="stmt" count="0"/>
+        <line num="70" type="stmt" count="0"/>
+        <line num="71" type="stmt" count="0"/>
+        <line num="73" type="stmt" count="0"/>
+        <line num="74" type="stmt" count="0"/>
+        <line num="75" type="stmt" count="0"/>
+        <line num="76" type="stmt" count="0"/>
+        <metrics loc="77" ncloc="69" classes="1" methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="0" elements="41" coveredelements="0"/>
+      </file>
+      <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/tests/Geometry/MultiLineStringTest.php">
+        <class name="MultiLineStringTest" namespace="Dmandrade\GeoJson\Tests\Geometry">
+          <metrics methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="42" coveredstatements="0" elements="48" coveredelements="0"/>
+        </class>
+        <line num="12" type="method" name="createSubjectWithExtraArguments" crap="2" count="0"/>
+        <line num="14" type="stmt" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="25" type="method" name="testIsSubclassOfGeometry" crap="2" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="30" type="method" name="testConstructionFromLineStringObjects" crap="2" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="34" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <line num="40" type="stmt" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="45" type="method" name="testSerialization" crap="2" count="0"/>
+        <line num="48" type="stmt" count="0"/>
+        <line num="49" type="stmt" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <line num="52" type="stmt" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <line num="59" type="stmt" count="0"/>
+        <line num="60" type="stmt" count="0"/>
+        <line num="61" type="stmt" count="0"/>
+        <line num="62" type="stmt" count="0"/>
+        <line num="68" type="method" name="testUnserialization" crap="2" count="0"/>
+        <line num="78" type="stmt" count="0"/>
+        <line num="80" type="stmt" count="0"/>
+        <line num="81" type="stmt" count="0"/>
+        <line num="84" type="stmt" count="0"/>
+        <line num="85" type="stmt" count="0"/>
+        <line num="86" type="stmt" count="0"/>
+        <line num="88" type="stmt" count="0"/>
+        <line num="89" type="stmt" count="0"/>
+        <line num="90" type="stmt" count="0"/>
+        <line num="91" type="stmt" count="0"/>
+        <line num="93" type="method" name="provideJsonDecodeAssocOptions" crap="2" count="0"/>
+        <line num="96" type="stmt" count="0"/>
+        <line num="97" type="stmt" count="0"/>
+        <line num="98" type="stmt" count="0"/>
+        <metrics loc="100" ncloc="96" classes="1" methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="42" coveredstatements="0" elements="48" coveredelements="0"/>
+      </file>
+      <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/tests/Geometry/MultiPointTest.php">
+        <class name="MultiPointTest" namespace="Dmandrade\GeoJson\Tests\Geometry">
+          <metrics methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="38" coveredstatements="0" elements="44" coveredelements="0"/>
+        </class>
+        <line num="12" type="method" name="createSubjectWithExtraArguments" crap="2" count="0"/>
+        <line num="14" type="stmt" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="25" type="method" name="testIsSubclassOfGeometry" crap="2" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="30" type="method" name="testConstructionFromPointObjects" crap="2" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="34" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <line num="40" type="stmt" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="45" type="method" name="testSerialization" crap="2" count="0"/>
+        <line num="47" type="stmt" count="0"/>
+        <line num="48" type="stmt" count="0"/>
+        <line num="51" type="stmt" count="0"/>
+        <line num="52" type="stmt" count="0"/>
+        <line num="53" type="stmt" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <line num="58" type="stmt" count="0"/>
+        <line num="64" type="method" name="testUnserialization" crap="2" count="0"/>
+        <line num="74" type="stmt" count="0"/>
+        <line num="76" type="stmt" count="0"/>
+        <line num="77" type="stmt" count="0"/>
+        <line num="79" type="stmt" count="0"/>
+        <line num="81" type="stmt" count="0"/>
+        <line num="82" type="stmt" count="0"/>
+        <line num="83" type="stmt" count="0"/>
+        <line num="84" type="stmt" count="0"/>
+        <line num="86" type="method" name="provideJsonDecodeAssocOptions" crap="2" count="0"/>
+        <line num="89" type="stmt" count="0"/>
+        <line num="90" type="stmt" count="0"/>
+        <line num="91" type="stmt" count="0"/>
+        <metrics loc="93" ncloc="89" classes="1" methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="38" coveredstatements="0" elements="44" coveredelements="0"/>
+      </file>
+      <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/tests/Geometry/MultiPolygonTest.php">
+        <class name="MultiPolygonTest" namespace="Dmandrade\GeoJson\Tests\Geometry">
+          <metrics methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="42" coveredstatements="0" elements="48" coveredelements="0"/>
+        </class>
+        <line num="12" type="method" name="createSubjectWithExtraArguments" crap="2" count="0"/>
+        <line num="14" type="stmt" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="25" type="method" name="testIsSubclassOfGeometry" crap="2" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="30" type="method" name="testConstructionFromPolygonObjects" crap="2" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="34" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <line num="40" type="stmt" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="45" type="method" name="testSerialization" crap="2" count="0"/>
+        <line num="48" type="stmt" count="0"/>
+        <line num="49" type="stmt" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <line num="52" type="stmt" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <line num="59" type="stmt" count="0"/>
+        <line num="60" type="stmt" count="0"/>
+        <line num="61" type="stmt" count="0"/>
+        <line num="62" type="stmt" count="0"/>
+        <line num="68" type="method" name="testUnserialization" crap="2" count="0"/>
+        <line num="78" type="stmt" count="0"/>
+        <line num="80" type="stmt" count="0"/>
+        <line num="81" type="stmt" count="0"/>
+        <line num="84" type="stmt" count="0"/>
+        <line num="85" type="stmt" count="0"/>
+        <line num="86" type="stmt" count="0"/>
+        <line num="88" type="stmt" count="0"/>
+        <line num="89" type="stmt" count="0"/>
+        <line num="90" type="stmt" count="0"/>
+        <line num="91" type="stmt" count="0"/>
+        <line num="93" type="method" name="provideJsonDecodeAssocOptions" crap="2" count="0"/>
+        <line num="96" type="stmt" count="0"/>
+        <line num="97" type="stmt" count="0"/>
+        <line num="98" type="stmt" count="0"/>
+        <metrics loc="100" ncloc="96" classes="1" methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="42" coveredstatements="0" elements="48" coveredelements="0"/>
+      </file>
+      <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/tests/Geometry/PointTest.php">
+        <class name="PointTest" namespace="Dmandrade\GeoJson\Tests\Geometry">
+          <metrics methods="9" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="34" coveredstatements="0" elements="43" coveredelements="0"/>
+        </class>
+        <line num="11" type="method" name="createSubjectWithExtraArguments" crap="2" count="0"/>
+        <line num="13" type="stmt" count="0"/>
+        <line num="15" type="stmt" count="0"/>
+        <line num="18" type="method" name="testIsSubclassOfGeometry" crap="2" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="27" type="method" name="testConstructorShouldRequireAtLeastTwoElementsInPosition" crap="2" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="37" type="method" name="testConstructorShouldRequireIntegerOrFloatElementsInPosition" crap="2" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <line num="40" type="stmt" count="0"/>
+        <line num="42" type="method" name="providePositionsWithInvalidTypes" crap="2" count="0"/>
+        <line num="45" type="stmt" count="0"/>
+        <line num="46" type="stmt" count="0"/>
+        <line num="47" type="stmt" count="0"/>
+        <line num="48" type="stmt" count="0"/>
+        <line num="51" type="method" name="testConstructorShouldAllowMoreThanTwoElementsInAPosition" crap="2" count="0"/>
+        <line num="53" type="stmt" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="58" type="method" name="testSerialization" crap="2" count="0"/>
+        <line num="60" type="stmt" count="0"/>
+        <line num="61" type="stmt" count="0"/>
+        <line num="64" type="stmt" count="0"/>
+        <line num="65" type="stmt" count="0"/>
+        <line num="66" type="stmt" count="0"/>
+        <line num="68" type="stmt" count="0"/>
+        <line num="69" type="stmt" count="0"/>
+        <line num="70" type="stmt" count="0"/>
+        <line num="71" type="stmt" count="0"/>
+        <line num="77" type="method" name="testUnserialization" crap="2" count="0"/>
+        <line num="84" type="stmt" count="0"/>
+        <line num="86" type="stmt" count="0"/>
+        <line num="87" type="stmt" count="0"/>
+        <line num="89" type="stmt" count="0"/>
+        <line num="90" type="stmt" count="0"/>
+        <line num="91" type="stmt" count="0"/>
+        <line num="92" type="stmt" count="0"/>
+        <line num="94" type="method" name="provideJsonDecodeAssocOptions" crap="2" count="0"/>
+        <line num="97" type="stmt" count="0"/>
+        <line num="98" type="stmt" count="0"/>
+        <line num="99" type="stmt" count="0"/>
+        <metrics loc="101" ncloc="88" classes="1" methods="9" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="34" coveredstatements="0" elements="43" coveredelements="0"/>
+      </file>
+      <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/tests/Geometry/PolygonTest.php">
+        <class name="PolygonTest" namespace="Dmandrade\GeoJson\Tests\Geometry">
+          <metrics methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="42" coveredstatements="0" elements="48" coveredelements="0"/>
+        </class>
+        <line num="12" type="method" name="createSubjectWithExtraArguments" crap="2" count="0"/>
+        <line num="14" type="stmt" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <line num="18" type="stmt" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="25" type="method" name="testIsSubclassOfGeometry" crap="2" count="0"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="30" type="method" name="testConstructionFromLinearRingObjects" crap="2" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="34" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <line num="40" type="stmt" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="45" type="method" name="testSerialization" crap="2" count="0"/>
+        <line num="48" type="stmt" count="0"/>
+        <line num="49" type="stmt" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <line num="52" type="stmt" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <line num="59" type="stmt" count="0"/>
+        <line num="60" type="stmt" count="0"/>
+        <line num="61" type="stmt" count="0"/>
+        <line num="62" type="stmt" count="0"/>
+        <line num="68" type="method" name="testUnserialization" crap="2" count="0"/>
+        <line num="78" type="stmt" count="0"/>
+        <line num="80" type="stmt" count="0"/>
+        <line num="81" type="stmt" count="0"/>
+        <line num="84" type="stmt" count="0"/>
+        <line num="85" type="stmt" count="0"/>
+        <line num="86" type="stmt" count="0"/>
+        <line num="88" type="stmt" count="0"/>
+        <line num="89" type="stmt" count="0"/>
+        <line num="90" type="stmt" count="0"/>
+        <line num="91" type="stmt" count="0"/>
+        <line num="93" type="method" name="provideJsonDecodeAssocOptions" crap="2" count="0"/>
+        <line num="96" type="stmt" count="0"/>
+        <line num="97" type="stmt" count="0"/>
+        <line num="98" type="stmt" count="0"/>
+        <metrics loc="100" ncloc="96" classes="1" methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="42" coveredstatements="0" elements="48" coveredelements="0"/>
+      </file>
+    </package>
+    <file name="/Users/danilo/Projetos/Pessoal/MyPackages/geojson/vendor/symfony/polyfill-mbstring/bootstrap.php">
+      <metrics loc="51" ncloc="43" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <metrics files="36" loc="2772" ncloc="2225" classes="33" methods="156" coveredmethods="45" conditionals="0" coveredconditionals="0" statements="904" coveredstatements="273" elements="1060" coveredelements="318"/>
+  </project>
+</coverage>
